@@ -29,6 +29,7 @@
 		8ED77DBE27F4997000E66613 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8ED77DBC27F4997000E66613 /* hikeData.json */; };
 		8ED77DBF27F4997000E66613 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8ED77DBD27F4997000E66613 /* landmarkData.json */; };
 		8ED77DC227F4A21500E66613 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED77DC127F4A21500E66613 /* LandmarkCommands.swift */; };
+		8ED77DC427F4A90600E66613 /* LandmarkSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED77DC327F4A90600E66613 /* LandmarkSetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		8ED77DBC27F4997000E66613 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hikeData.json; path = ../../../CreatingAmacOSApp/Complete/Landmarks/Resources/hikeData.json; sourceTree = "<group>"; };
 		8ED77DBD27F4997000E66613 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = ../../../CreatingAmacOSApp/Complete/Landmarks/Resources/landmarkData.json; sourceTree = "<group>"; };
 		8ED77DC127F4A21500E66613 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		8ED77DC327F4A90600E66613 /* LandmarkSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				8ED77DAD27F4991A00E66613 /* FavoriteButton.swift */,
 				8ED77DAE27F4991A00E66613 /* MapView.swift */,
 				8ED77DAB27F4990D00E66613 /* CircleImage.swift */,
+				8ED77DC327F4A90600E66613 /* LandmarkSetting.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				8ED77DB027F4991A00E66613 /* MapView.swift in Sources */,
 				8ED77DAF27F4991A00E66613 /* FavoriteButton.swift in Sources */,
 				8ED77DA927F498FD00E66613 /* LandmarkList.swift in Sources */,
+				8ED77DC427F4A90600E66613 /* LandmarkSetting.swift in Sources */,
 				8ED77DC227F4A21500E66613 /* LandmarkCommands.swift in Sources */,
 				8ED77DAC27F4990E00E66613 /* CircleImage.swift in Sources */,
 				8ED77DA827F498FD00E66613 /* LandmarkDetail.swift in Sources */,

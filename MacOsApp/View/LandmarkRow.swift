@@ -13,7 +13,7 @@ struct LandmarkRow: View {
     var body: some View {
         HStack {
             landmark.image
-                .resizable()
+                .resizable() // for image size modification using this before
                 .frame(width: 50, height: 50)
                 .cornerRadius(5)
             VStack(alignment: .leading) {

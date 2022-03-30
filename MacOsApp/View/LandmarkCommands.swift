@@ -23,7 +23,7 @@ struct LandmarkCommands: Commands {
     }
 }
 
-private struct SelectedLandmarkKey: FocusedValueKey {
+private struct SelectedLandmarkKey: FocusedValueKey { //@FocusedBinding 위해 필요
     typealias Value = Binding<Landmark>
 }
 
